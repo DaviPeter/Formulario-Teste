@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Teste</title>
+    <style>
+        * {
+            font-family: Helvetica;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.js" autocomplete="off" method="post">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required>
+        </p>
+        <p>
+            <label for="inumero">Média:</label>
+            <input type="number" name="numero" id="inumero" required>
+        </p>
+        <p>
+            <label for="imes">Périodo da prova:</label>
+            <input type="month" name="mes" id="imes" required value="2020-03">
+        </p>
+        <p>
+            <label for="idata">Data da prova:</label>
+            <input type="date" name="data" id="idata" required>
+        </p>
+        <p>
+            <label for="ihora">Hora:</label>
+            <input type="time" name="hora" id="ihora" >
+        </p>
+    </form>
+    
+</body>
+</html>
